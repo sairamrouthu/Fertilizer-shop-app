@@ -1,6 +1,6 @@
 // 1) Replace these with Project Settings > API values from your own Supabase project.
 // Use only the public anon/publishable key in browser code. Never use service_role here.
-const SUPABASE_URL = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xYWNtdmt6bWJ1cmtod2dkZnp4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIyMTM0NDUsImV4cCI6MjEwNzc4OTQ0NX0.E5yCArjBqgXNDHMxO5HQOrSJ9PbI4mfbC77e-LDGvFA";
+const SUPABASE_URL = "https://oqacmvkzmburkhwgdfzx.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_xMfPhQAne3SF9PLcpfPQqA_uuX2SRdx";
 let sb = null, currentUser = null, farmers = [], products = [], sales = [], payments = [], language = "en";
 const money = n => "₹" + Number(n || 0).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
